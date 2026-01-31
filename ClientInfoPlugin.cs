@@ -52,7 +52,7 @@ namespace DNWS
 
     public HTTPResponse PostProcessing(HTTPResponse response)
     {
-      throw new NotImplementedException();
+      return response;
     }
   }
 }
